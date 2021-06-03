@@ -8,8 +8,6 @@
       </div>
     </div>
     <!-- 富文本输入框 -->
-    <input type="text" v-model.lazy="text"/>
-    <button @click="sendMessage">发送消息</button>
     <editor @submit="sendMessage"></editor>
   </div>
 </template>
